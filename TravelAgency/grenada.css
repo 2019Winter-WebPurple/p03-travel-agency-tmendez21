@@ -1,0 +1,38 @@
+/* 
+* Tatiana Mendez
+* April 9, 2019
+* CSS page for Grenada Brochure by the Padua Panda Travel Agency
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+body { 
+    background-color: lightyellow; /*background color*/
+    font-family: "Arial Black", sans-serif; /*font selector*/
+    width: 85%;
+    margin: auto;
+    }
+
+h1 { background-color: darksalmon; } /*type selector for all h1*/
+
+h2 { background-color: darksalmon; } /*type selector for all h2*/
+
+#stgeorges {width:350px; height:250px;} /*id selector for the St. George's image*/
+
+#AnnandaleFalls {width:250px; height:350px;} /*id selector for the Annandale Falls image*/
+
+#grandanse {width:350px; height:250px;} /*id selector for the Grand Anse Beach image*/
+
+figure {float: both;} /*type selector for the figures*/
+
+thead { background-color: floralwhite; } /*type selector for thead*/
+
+tbody {background-color: bisque; } /*type selector for the tbody*/
+
+tfoot { background-color: floralwhite; } /*type selector for the tfoot*/
+
+table, td, th { border: 1px solid black; } /*type selector for the table, td, and th and their border*/
